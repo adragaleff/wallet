@@ -1,7 +1,7 @@
 stages:
   - test
 
-echo_test:
+echo:
   stage: test
   script:
     - echo "This is a test pipeline!"
